@@ -3,7 +3,7 @@
 int main()
 {
 	int n;
-	printf("Digite um uma quantidade de numeros a serem inseridos: ");
+	printf("Quantos numero você quer analisar: ");
 	scanf("%d", &n);
 	
 	int x, soma_pares = 0;
@@ -15,6 +15,7 @@ int main()
 	
 	for(i = 0; i < n; i++)
 	{
+		printf("valor 0%d: ");
 		scanf("%d", &x);
 		
 		if( !(x%2) ) {
