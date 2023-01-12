@@ -9,7 +9,7 @@ int main()
 	int x, soma_pares = 0;
 	
 	int quantiaPares 	= 0,
-		quantiaImpares 	= 0;
+	    quantiaImpares 	= 0;
 		
 	register int i;
 	
