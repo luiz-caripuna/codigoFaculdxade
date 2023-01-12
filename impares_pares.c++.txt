@@ -27,9 +27,9 @@ int main()
 	}
 	
 	//Mostra os resultados
-	printf("%d Numeros pares:.\n", quantiaPares);
-	printf("%d Numeros impares:.\n", quantiaImpares);
-	printf("%d Foi a soma dos numeros paraes.\n", soma_pares);
+	printf("%d Numeros pares.\n", quantiaPares);
+	printf("%d Numeros impares.\n", quantiaImpares);
+	printf("%d Foi a soma dos numeros pares.\n", soma_pares);
 	
 	return (0);
 }
