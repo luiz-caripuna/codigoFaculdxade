@@ -13,9 +13,9 @@ int main()
 		
 	register int i;
 	
-	for(i = 0; i < n; i++)
+	for(i = 1; i <= n; i++)
 	{
-		printf("valor 0%d: ");
+		printf("valor 0%d: ", i);
 		scanf("%d", &x);
 		
 		if( !(x%2) ) {
