@@ -3,7 +3,7 @@
 int main()
 {
 	int n;
-	printf("Digite um uma quantdade de numeros a serem inseridos: ");
+	printf("Digite um uma quantidade de numeros a serem inseridos: ");
 	scanf("%d", &n);
 	
 	int x, soma_pares = 0;
@@ -26,9 +26,9 @@ int main()
 	}
 	
 	//Mostra os resultados
-	printf("%d numeros pares:.\n", quantiaPares);
-	printf("%d numeros impares:.\n", quantiaImpares);
-	printf("%d foi a suma dos numeros paraes.\n", soma_pares);
+	printf("%d Numeros pares:.\n", quantiaPares);
+	printf("%d Numeros impares:.\n", quantiaImpares);
+	printf("%d Foi a soma dos numeros paraes.\n", soma_pares);
 	
 	return (0);
 }
